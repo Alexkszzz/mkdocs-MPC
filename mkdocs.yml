@@ -1,0 +1,9 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - User Guide: user.md
+    - Developer Guide: 
+      - Overview: overview.md
+      - Frontend Documentation: coding.md
+      - Coding Patterns: patterns.md
+      - Deployment: deployment.md
