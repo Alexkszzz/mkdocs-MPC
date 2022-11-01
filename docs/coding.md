@@ -9,4 +9,5 @@ Other page components such as Navbar or layout can be found under `/components` 
 All state information such as userId, cart, etc. are stored in the localStorage. The `store.js` file under `src` folder stores all state's information as well as the logic to update state.
 
 ## Component styling
-This website is using material-ui v4. See [docs](https://v4.mui.com/getting-started/installation/). Please note that changing to mui-v5 might cause some styling error as Nextjs prerenders all pages in default in advance instead of doing all in the client side, that is why the style components get conflicted if using mui v5. At the moment, this issue is not fixed yet, therefore, mui v4 was used instead.
+This website is using material-ui v4. See [docs](https://v4.mui.com/getting-started/installation/). Please note that changing to mui-v5 might cause some styling errors as Nextjs prerenders all pages in default in advance instead of doing all in the client side, that is why the style components get conflicted if using mui v5. At the moment, this issue is not fixed yet, therefore, mui v4 was used instead.
+
